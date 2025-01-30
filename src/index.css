@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@theme {
+  --color-blue: #1c4670;
+  --color-offWhite: #e6ecfd;
+  --color-creamwhite: #fafafa;
+  --color-darkblue: #272d37;
+  --color-darkyellow: #ffa229;
+  --color-yellowdarker: #eb8d15;
+  --color-darkblack: #010101;
+  --color-gray-2: #4f4f4f;
+  --color-gray-1: #aab5cd;
+  --color-gray-3: #666666;
+  --color-brown: #3c2109;
+  --color-icon1: #eb5757;
+  --color-icon2: #27ae60;
+  --color-icon3: #f2994a;
+  --color-icon4: #828282;
+  --color-deepblue: #011b5b;
+}
+
+.verLine {
+  position: absolute;
+  width: 1px;
+  right: 211px;
+  top: 18.18%;
+  bottom: 18.18%;
+  height: 28px;
+
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    #d0d0d0 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.inter {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
