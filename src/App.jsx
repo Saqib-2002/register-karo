@@ -9,10 +9,12 @@ import Video from "./components/Video";
 import HappyClients from "./components/HappyClients";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const HomePage = () => {
   return (
     <>
+      <SpeedInsights />
       <Navbar />
       <Banner />
       <Company />
