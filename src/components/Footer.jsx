@@ -43,9 +43,13 @@ const Footer = () => {
           <div className="flex h-6 w-6 gap-6">
             {social.map((link, index) => {
               return (
-                <Link key={index} to="/" className="h-6 w-6">
-                  <img src={link} alt="" />
-                </Link>
+                <img
+                  src={link}
+                  alt=""
+                  key={index}
+                  to="/"
+                  className="h-6 w-6 cursor-pointer"
+                />
               );
             })}
           </div>
